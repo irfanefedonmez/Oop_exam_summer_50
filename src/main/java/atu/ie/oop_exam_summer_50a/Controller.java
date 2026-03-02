@@ -15,6 +15,7 @@ public class Controller {
         this.bookingService = bookingService;
     }
     @PostMapping
+
     public ResponseEntity<String> bookingService(@Valid @RequestBody String studentEmail) {
 
     }
