@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class BookingData {
+public class bookingData {
     @NotBlank(message = "Booking id required")
     private int bookingId;
     @NotBlank(message = "room number required")
@@ -20,6 +20,6 @@ public class BookingData {
     @NotBlank(message = "Student mail required")
     private String studentEmail;
 
-    
+
 
 }
